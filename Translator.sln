@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator", "Translator\Translator.csproj", "{3AC51CA6-C546-4D88-9256-BE7AB6BC9324}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GT Installer", "GT Installer\GT Installer.vdproj", "{075CDCE2-5DAC-4708-95DF-30EDE2F98B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC51CA6-C546-4D88-9256-BE7AB6BC9324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC51CA6-C546-4D88-9256-BE7AB6BC9324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC51CA6-C546-4D88-9256-BE7AB6BC9324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC51CA6-C546-4D88-9256-BE7AB6BC9324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075CDCE2-5DAC-4708-95DF-30EDE2F98B2F}.Debug|Any CPU.ActiveCfg = Debug
+		{075CDCE2-5DAC-4708-95DF-30EDE2F98B2F}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60C14FB-9840-494D-B30D-89C1A4243FEF}
+	EndGlobalSection
+EndGlobal
