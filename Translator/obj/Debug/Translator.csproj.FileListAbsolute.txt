@@ -39,3 +39,22 @@ E:\Desktop projects\Translator\Translator\bin\Debug\Newtonsoft.Json.xml
 E:\Desktop projects\Translator\Translator\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\Desktop projects\Translator\Translator\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\Desktop projects\Translator\Translator\obj\Debug\Translator.csproj.CopyComplete
+G:\OWN\GT for PC\Translator\bin\Debug\Translator.exe.config
+G:\OWN\GT for PC\Translator\bin\Debug\Translator.exe
+G:\OWN\GT for PC\Translator\bin\Debug\Translator.pdb
+G:\OWN\GT for PC\Translator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\OWN\GT for PC\Translator\bin\Debug\Newtonsoft.Json.dll
+G:\OWN\GT for PC\Translator\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\OWN\GT for PC\Translator\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\OWN\GT for PC\Translator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+G:\OWN\GT for PC\Translator\bin\Debug\Newtonsoft.Json.xml
+G:\OWN\GT for PC\Translator\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\OWN\GT for PC\Translator\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.AssemblyReference.cache
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.Form1.resources
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.Properties.Resources.resources
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.GenerateResource.cache
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.CoreCompileInputs.cache
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.CopyComplete
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.exe
+G:\OWN\GT for PC\Translator\obj\Debug\Translator.pdb
