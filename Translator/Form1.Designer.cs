@@ -30,7 +30,6 @@ namespace Translator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -40,7 +39,6 @@ namespace Translator
             this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -48,37 +46,28 @@ namespace Translator
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(13, 116);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(405, 225);
-            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.Blue;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(12, 342);
+            this.textBox2.Location = new System.Drawing.Point(10, 6);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(405, 225);
+            this.textBox2.Size = new System.Drawing.Size(490, 255);
             this.textBox2.TabIndex = 1;
             // 
             // comboBox1
@@ -89,10 +78,21 @@ namespace Translator
             "Avtomatik aniqlash",
             "Inglizcha",
             "O\'zbekcha",
-            "Ruscha"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 64);
+            "Ruscha",
+            "Arabcha",
+            "Fransuzcha",
+            "Nemischa",
+            "Hindcha",
+            "Italyancha",
+            "Yaponcha",
+            "Koreyscha",
+            "Lotincha",
+            "Forscha",
+            "Ispancha",
+            "Turkcha"});
+            this.comboBox1.Location = new System.Drawing.Point(13, 64);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(168, 28);
+            this.comboBox1.Size = new System.Drawing.Size(200, 28);
             this.comboBox1.TabIndex = 3;
             // 
             // comboBox2
@@ -102,10 +102,21 @@ namespace Translator
             this.comboBox2.Items.AddRange(new object[] {
             "O\'zbekcha",
             "Inglizcha",
-            "Ruscha"});
-            this.comboBox2.Location = new System.Drawing.Point(230, 64);
+            "Ruscha",
+            "Arabcha",
+            "Fransuzcha",
+            "Nemischa",
+            "Hindcha",
+            "Italyancha",
+            "Yaponcha",
+            "Koreyscha",
+            "Lotincha",
+            "Forscha",
+            "Ispancha",
+            "Turkcha"});
+            this.comboBox2.Location = new System.Drawing.Point(285, 64);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(175, 28);
+            this.comboBox2.Size = new System.Drawing.Size(200, 28);
             this.comboBox2.TabIndex = 4;
             // 
             // button1
@@ -118,7 +129,7 @@ namespace Translator
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(266, 6);
+            this.button1.Location = new System.Drawing.Point(356, 6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 31);
             this.button1.TabIndex = 5;
@@ -129,13 +140,14 @@ namespace Translator
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(194, 66);
+            this.button4.Location = new System.Drawing.Point(235, 64);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(24, 24);
+            this.button4.Size = new System.Drawing.Size(30, 30);
             this.button4.TabIndex = 10;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -148,7 +160,7 @@ namespace Translator
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(418, 58);
+            this.panel1.Size = new System.Drawing.Size(500, 58);
             this.panel1.TabIndex = 12;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label4_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label4_MouseMove);
@@ -162,11 +174,11 @@ namespace Translator
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(383, -4);
+            this.button5.Location = new System.Drawing.Point(453, -4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(38, 27);
+            this.button5.Size = new System.Drawing.Size(50, 34);
             this.button5.TabIndex = 13;
             this.button5.Text = "x";
             this.button5.UseVisualStyleBackColor = false;
@@ -178,7 +190,7 @@ namespace Translator
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(55, 8);
+            this.label4.Location = new System.Drawing.Point(96, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(296, 37);
             this.label4.TabIndex = 13;
@@ -189,24 +201,12 @@ namespace Translator
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Blue;
-            this.panel3.Controls.Add(this.pictureBox5);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(13, 528);
+            this.panel3.Location = new System.Drawing.Point(-2, 661);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(387, 39);
+            this.panel3.Size = new System.Drawing.Size(485, 39);
             this.panel3.TabIndex = 14;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Location = new System.Drawing.Point(360, 9);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 18;
-            this.pictureBox5.TabStop = false;
             // 
             // label2
             // 
@@ -236,9 +236,9 @@ namespace Translator
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(11, 298);
+            this.panel2.Location = new System.Drawing.Point(0, 362);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(389, 44);
+            this.panel2.Size = new System.Drawing.Size(485, 44);
             this.panel2.TabIndex = 15;
             // 
             // label1
@@ -268,27 +268,48 @@ namespace Translator
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.Location = new System.Drawing.Point(0, 97);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(418, 1);
+            this.panel4.Size = new System.Drawing.Size(500, 1);
             this.panel4.TabIndex = 16;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(373, 101);
+            this.pictureBox6.Location = new System.Drawing.Point(453, 99);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox6.Size = new System.Drawing.Size(32, 32);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 17;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(10, 108);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(490, 248);
+            this.textBox1.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Blue;
+            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Location = new System.Drawing.Point(0, 406);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(485, 260);
+            this.panel5.TabIndex = 18;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(418, 579);
+            this.ClientSize = new System.Drawing.Size(500, 700);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
@@ -297,7 +318,6 @@ namespace Translator
             this.Controls.Add(this.button4);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -306,20 +326,19 @@ namespace Translator
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
@@ -336,7 +355,8 @@ namespace Translator
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 

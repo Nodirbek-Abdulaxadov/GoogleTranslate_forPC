@@ -29,7 +29,7 @@ namespace Translator
             }
         }
 
-        public async Task<string> TranslateText(string input, string kirish, string chiqish)
+        public string TranslateText(string input, string kirish, string chiqish)
         {
             try
             {
@@ -39,6 +39,17 @@ namespace Translator
                     case "Avtomatik aniqlash": kirish = "auto"; break;
                     case "Inglizcha": kirish = "en"; break;
                     case "Ruscha": kirish = "ru"; break;
+                    case "Arabcha": kirish = "ar"; break;
+                    case "Fransuzcha": kirish = "fr"; break;
+                    case "Nemischa": kirish = "de"; break;
+                    case "Hindcha": kirish = "hi"; break;
+                    case "Italyancha": kirish = "it"; break;
+                    case "Yaponcha": kirish = "ja"; break;
+                    case "Koreyscha": kirish = "ko"; break;
+                    case "Lotincha": kirish = "la"; break;
+                    case "Forscha": kirish = "fa"; break;
+                    case "Ispancha": kirish = "es"; break;
+                    case "Turkcha": kirish = "tr"; break;
                     default: break;
                 }
                 switch (chiqish)
@@ -46,6 +57,17 @@ namespace Translator
                     case "O'zbekcha": chiqish = "uz"; break;
                     case "Inglizcha": chiqish = "en"; break;
                     case "Ruscha": chiqish = "ru"; break;
+                    case "Arabcha": chiqish = "ar"; break;
+                    case "Fransuzcha": chiqish = "fr"; break;
+                    case "Nemischa": chiqish = "de"; break;
+                    case "Hindcha": chiqish = "hi"; break;
+                    case "Italyancha": chiqish = "it"; break;
+                    case "Yaponcha": chiqish = "ja"; break;
+                    case "Koreyscha": chiqish = "ko"; break;
+                    case "Lotincha": chiqish = "la"; break;
+                    case "Forscha": chiqish = "fa"; break;
+                    case "Ispancha": chiqish = "es"; break;
+                    case "Turkcha": chiqish = "tr"; break;
                     default: break;
                 }
                 string url = String.Format
@@ -74,7 +96,7 @@ namespace Translator
             }
             return null;
         }
-        private async void button1_Click_1Async(object sender, EventArgs e)
+        private void button1_Click_1Async(object sender, EventArgs e)
         {
             if (textBox1.Text != null && textBox1.Text.Length > 0)
             {
@@ -82,11 +104,11 @@ namespace Translator
                 {
                     var input_language = comboBox1.Text;
                     var output_language = comboBox2.Text;
-                    textBox2.Text = await TranslateText(textBox1.Text, input_language, output_language);
+                    textBox2.Text = TranslateText(textBox1.Text, input_language, output_language);
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("Internet aloqasi yo'q!");
+                    MessageBox.Show("Xatolik yuz berdi!");
                 }
             }
         }
