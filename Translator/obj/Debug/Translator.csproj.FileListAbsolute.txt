@@ -58,22 +58,3 @@ G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.CoreCompileInputs.cache
 G:\OWN\GT for PC\Translator\obj\Debug\Translator.csproj.CopyComplete
 G:\OWN\GT for PC\Translator\obj\Debug\Translator.exe
 G:\OWN\GT for PC\Translator\obj\Debug\Translator.pdb
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Translator.exe.config
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Translator.exe
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Translator.pdb
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Newtonsoft.Json.dll
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\System.Threading.Tasks.Extensions.dll
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\Newtonsoft.Json.xml
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-G:\OWN\Portfolio\Google Translator for PC\Translator\bin\Debug\System.Threading.Tasks.Extensions.xml
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.csproj.AssemblyReference.cache
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.Form1.resources
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.Properties.Resources.resources
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.csproj.GenerateResource.cache
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.csproj.CoreCompileInputs.cache
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.csproj.CopyComplete
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.exe
-G:\OWN\Portfolio\Google Translator for PC\Translator\obj\Debug\Translator.pdb
